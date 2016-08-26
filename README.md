@@ -14,7 +14,7 @@ express.use(httpErrorExpress());
 
 ### Notes
 It's reccomended to use `http-error-express` as the last middleware. Errors without status property will be treated as `HTPP 500 - Internal server error`. Given `err` the incoming error, it will render a message as:
-```json
+```javascript
 {
     message: err.message,
     data: err.data
