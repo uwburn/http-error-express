@@ -1,4 +1,4 @@
-# HTTP error middlweare
+# HTTP error middleware
 
 A simple Express middleware to deal coherently with HTTP errors in Express, expecially useful when creating web APIs. See `http-error` for the companion error module.
 
